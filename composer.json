@@ -1,0 +1,14 @@
+{
+    "name": "jenniward/trains",
+    "description": "Train running prediction system",
+    "require": {
+        "j4mie/paris": "1.4.1"
+    },
+    "authors": [
+        {
+            "name": "jenniward",
+            "email": "jennykay19@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
