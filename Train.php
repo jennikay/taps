@@ -2,19 +2,19 @@
 class Train extends Model {
     
     public function callingpoints() {
-        return this->has_many('Callingpoint');
+        return $this->has_many('Callingpoint');
     }
 
     public function toc_id() {
-        return this->has_one('Toc');
+        return $this->has_one('Toc');
     }
 
     public function origin() {
-        return this->has_one('Location',STANOX);
+        return $this->has_one('Location','STANOX','origin');
     }
 
     public function destination() {
-        return this->has_one('Location',STANOX);
+        return $this->has_one('Location','STANOX','destination');
     }
 }
 ?>
